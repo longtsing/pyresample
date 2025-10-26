@@ -1,0 +1,21 @@
+name: readthedocs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - xarray
+  - zarr
+  - dask
+  - donfig
+  - toolz
+  - numpy
+  - cython
+  - cartopy
+  - pytest
+  - pyproj
+  - shapely
+  - pykdtree
+  - sphinx_rtd_theme
+  - sphinx-reredirects
+  - sphinx-autodoc-typehints
